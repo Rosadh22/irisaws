@@ -23,4 +23,4 @@ def predict():
     return render_template('index.html',**locals())
 
 if __name__=='__main__':
-    app.run()
+    app.run(host="0.0.0.0",PORT=8000,debug=True)
